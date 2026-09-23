@@ -173,7 +173,7 @@ plot(d3_test(2:end), Y3_test(2:end), 'r.'); hold off
 xlabel('norimas d3'); ylabel('tinklo y3');
 legend('mokymas','testavimas'); title('3 isejimas'); grid on
 
-% Papildomai - atsakas prieš x, kaip anksciau darei
+% Papildomai - atsakas prieš x
 figure
 plot(x,d1,'b*'); hold on; plot(x,Y1,'r'); hold off
 legend('Norimas atsakas (d1)','Tinklo atsakas (Y1)')
